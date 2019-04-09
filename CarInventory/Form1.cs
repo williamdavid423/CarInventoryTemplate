@@ -21,10 +21,5 @@ namespace CarInventory
         {
 
         }
-
-        private void listButton_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

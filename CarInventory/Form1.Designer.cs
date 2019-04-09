@@ -38,7 +38,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.listButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // yearInput
@@ -82,7 +81,7 @@
             // outputLabel
             // 
             this.outputLabel.BackColor = System.Drawing.Color.White;
-            this.outputLabel.Location = new System.Drawing.Point(37, 219);
+            this.outputLabel.Location = new System.Drawing.Point(37, 192);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(300, 138);
             this.outputLabel.TabIndex = 5;
@@ -124,22 +123,11 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Mileage";
             // 
-            // listButton
-            // 
-            this.listButton.Location = new System.Drawing.Point(97, 184);
-            this.listButton.Name = "listButton";
-            this.listButton.Size = new System.Drawing.Size(64, 23);
-            this.listButton.TabIndex = 10;
-            this.listButton.Text = "List";
-            this.listButton.UseVisualStyleBackColor = true;
-            this.listButton.Click += new System.EventHandler(this.listButton_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(379, 366);
-            this.Controls.Add(this.listButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -169,7 +157,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button listButton;
     }
 }
 
