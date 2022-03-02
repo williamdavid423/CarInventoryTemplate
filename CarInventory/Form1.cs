@@ -29,10 +29,7 @@ namespace CarInventory
                Car c = new Car(year, make, colour, mileage);
             cars.Add(c);
 
-            //for(int i = 0; i < cars.Count; i++)
-            //{
-
-            //}
+          
             outputLabel.Text = "";
 
             foreach(Car car in cars)
